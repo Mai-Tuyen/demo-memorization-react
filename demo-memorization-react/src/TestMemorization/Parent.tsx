@@ -9,7 +9,7 @@ function App() {
   const [c, setC] = useState(3);
   const [d, setD] = useState(4);
 
-  const sum = a + b + c;
+  const arr = [a, b, c, d];
 
   return (
     <>
